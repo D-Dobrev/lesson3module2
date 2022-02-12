@@ -1,0 +1,129 @@
+.bodyColor {
+    background-color: #fbf7e3;
+}
+.textColor {
+    color: #652d16;
+}
+.button {
+    background-color: #f3df85;
+}
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Pruduct card*/
+.productCard {
+width: 400px;
+height: 550px;
+display: flex;
+flex-direction: column;
+border-radius: 130px;
+overflow: hidden;
+
+}
+.productCardImage {
+    width: auto;
+    height: 350px;
+    object-fit: cover;
+    
+}
+.cardBody {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+.productName {
+    margin-bottom: 0px;
+}
+.productDescription {
+    font-size: 20px;
+    margin-top: 0px;
+}
+.productType {
+    width: 75%;
+    text-align: center;
+}
+.productPrice {
+    width: 25%;
+    margin-right: 12%;
+}
+.price {
+    margin: auto;
+    font-size: 25px;
+}
+.buy{
+    background-color: #f3df85;
+    width: 50%;
+    height: 56px;
+    border-radius: 25px;
+    align-self: center;
+    text-align: center;
+    display: flex;
+}
+.buttonText {
+    width: 160px;
+    font-size: 25px;
+    margin: auto;
+    align-self: center;
+    
+}
+/*Navigation*/
+.navBar {
+    background-color: #fbf7e3;
+    width: 800px;
+    height: 150px;
+    border-radius: 75px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+ul {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbutton {
+    width: 13%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 100px;
+    border-radius: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 10px;
+
+
+}
+.shopIcon {
+    width: auto;
+    height: 65px;
+}
+.shop {
+    font-size: 40px;
+    font-weight: bolder;
+    padding-right: 30px;
+}

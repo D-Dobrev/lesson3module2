@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honey Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="productCard bodyColor">
+        <img class="productCardImage" src="./assets/honey.jpg" alt="Jar with honey">
+      <div class="bodyColor cardBody">
+          <div class="content">
+            <div class="productType">
+               <h2 class="textColor productName">100% Bio Honey</h2>
+               <p class="textColor productDescription">Italian, not treated</p>
+            </div>
+            <div class="productPrice">
+               <span class="textColor price">7$/kg</span>
+            </div>
+          </div>
+          <div class="buy button">
+            <p class="textColor buttonText">Add to cart</p>
+          </div>
+      </div>
+    </div>
+    <div class="navBar">
+        <ul>
+            <li class="button navbutton">
+                <p class="textColor navbuttonText">Our Honey</p>
+            </li>
+            <li class="button navbutton">
+                <p class="textColor">Trace Honey</p>
+            </li>
+            <li class="button main">
+                <img class="shopIcon" src="./assets/logo.png" alt="logo">
+                <p class="textColor shop">Shop</p>
+            </li>
+            <li class="button navbutton">
+                <p class="textColor">Facilities</p>
+            </li>
+            <li class="button navbutton">
+                <p class="textColor">Contacts</p>
+            </li>
+        </ul>
+
+    </div>
+    <div class="article">
+
+    </div>
+    <script>
+
+        const changeColor = document.querySelector(".buy");
+
+        changeColor.addEventListener("click", () => {
+
+        changeColor.style.background = "red";
+      });
+       
+
+    </script>
+</body>
+</html>
